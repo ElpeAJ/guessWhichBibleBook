@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: brown;
+  margin: 20px 0px;
+}
+
+h4 {
+  width: 75%;
+  margin: 0 auto;
+  font-size: 34px;
+  /* text-align: center; */
+}
+
+.images {
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 20px 0px;
+}
+
+.images img {
+  width: 270px;
+  border-radius: 20px;
+}
+
+#guess {
+  width: 60%;
+  /* height: 30%; */
+  margin: 0 auto;
+}
+
+.guess {
+  /* margin: 0 auto; */
+  /* padding: 60px; */
+  width: 300px;
+  font-size: 34px;
+  border: none;
+  color: white;
+  background-color: rgb(53, 70, 19);
+  border-radius: 20px;
+}
