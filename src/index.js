@@ -277,5 +277,13 @@ function mixedUpBooks(event) {
   // event.preventDefault();
   button.innerHTML = `${bibleBooks[randomNumber]}`;
 }
+function backToImage(event) {
+  // event.preventDefault();
+  dbutton.innerHTML = `${button}`;
+}
+
 let button = document.querySelector(".guess");
 button.addEventListener("click", mixedUpBooks);
+
+let dbutton = document.querySelector(".guess");
+dbutton.addEventListener("dblclick", backToImage);
